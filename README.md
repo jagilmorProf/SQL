@@ -1,11 +1,6 @@
 # SQL
-SQL-queries
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>SQL Query Filters</title>
-</head>
 <body>
     <h1>Apply filters to SQL queries</h1>
     <h2>Project description</h2>
