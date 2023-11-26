@@ -8,6 +8,7 @@
         In this document we will demonstrate the interaction between a cybersecurity expert and SQL databases. In this scenario we will be looking at discovering possible security issues involving log-in attempts and employee machines. We will review data from an organization database, and use various filter functions such as AND, OR, and NOT to allow for easier consumption and assessment of data gathered from the database.
     </p>
     <h3>Retrieve after hours failed login attempts</h3>
+    <img src="https://github.com/jagilmorProf/SQL/blob/main/Picture1.png">
     <p>
         In this request, we asked the MariaDB to look in the organization database, within the log_in_attempts table to find all log-ins that happened after 6:00 PM, and all of the attempts that resulted in a failure “0” result.
     </p>
