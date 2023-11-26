@@ -16,10 +16,10 @@
           </p>
  <h2>Retrieve login attempts on specific dates</h2>
     <p>
-    In this next example, we will focus in on the date of 05-09-2022 as the date a suspicious even occurred. We will run a request in SQL to review all log in attempts that had occurred between 05-08-2022 and 05-09-2022 to better picture of the events that occurred.<br>
+    In this next example, we will focus in on the date of 05-09-2022 as the date a suspicious even occurred. We will run a request in SQL to review all log in attempts that had occurred between 05-08-2022 and 05-09-2022 to better picture of the events that occurred.<br><br>
         We will use the query SELECT * FROM log_in_attempts WHERE login_date = ’22-05-09’ or login_date = ’22-05-08’; 
 We can review all 75 instances of both failed and successful log-in attempts between 05-08-2022 and 05-09-2022.
-<br>
+<br><br>
         <img src="https://github.com/jagilmorProf/SQL/blob/main/Picture2.png">
     <p>
         Overall, as a cybersecurity professional it is important to understand the core concept of SQL to allow yourself to be able to fully unlock the entire toolkit of Filters and outputs that the database will provide. Understanding filters will assist cybersecurity professionals in better understanding the data provided and allows for users to hone in on details that will make their organization's databases and networks formidable entities.
