@@ -16,7 +16,7 @@
           </p>
  <h2>Retrieve login attempts on specific dates</h2>
     <p>
-    <h3>In this next example, we will focus in on the date of 05-09-2022 as the date a suspicious even occurred. We will run a request in SQL to review all log in attempts that had occurred between 05-08-2022 and 05-09-2022 to better picture of the events that occurred.</h3><br>
+    In this next example, we will focus in on the date of 05-09-2022 as the date a suspicious even occurred. We will run a request in SQL to review all log in attempts that had occurred between 05-08-2022 and 05-09-2022 to better picture of the events that occurred.<br>
         We will use the query SELECT * FROM log_in_attempts WHERE login_date = ’22-05-09’ or login_date = ’22-05-08’; 
 We can review all 75 instances of both failed and successful log-in attempts between 05-08-2022 and 05-09-2022.
 <br>
